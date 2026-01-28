@@ -114,7 +114,7 @@ const FeaturedCars = () => {
     <section className="bg-gray-100 py-20 sm:px-16 px-4">
       <div className="max-w-7xl mx-auto text-center mb-12 head-reveal">
         <h2 className="sm:text-4xl text-3xl font-bold mb-2 flex justify-center items-center gap-2">
-          <span className="text-blue-500"><Car className='w-12 h-12' /></span><span className='text-gray-800'>Featured Cars</span>
+          <span className="text-sky-500"><Car className='w-12 h-12' /></span><span className='text-gray-800'>Featured Cars</span>
         </h2>
         <p className="text-gray-600 text-lg">Discover our handpicked selection of premium vehicles, perfect for any journey</p>
       </div>
@@ -137,9 +137,9 @@ const FeaturedCars = () => {
                 <MapPin className='w-4 h-4' /><span>{car.location}</span>
               </div>
               <div className="flex sm:items-center sm:flex-row flex-col sm:gap-10 gap-2 mt-2 text-gray-600 text-sm">
-                <span className='inline-flex items-center gap-1'><Users className='w-4 h-4 text-blue-500' /> {car.seats} seats</span>
-                <span className='inline-flex items-center gap-1'><Cog className='w-4 h-4 text-blue-500' /> {car.transmission}</span>
-                <span className='inline-flex items-center gap-1'><Fuel className='w-4 h-4 text-blue-500' /> {car.fuel}</span>
+                <span className='inline-flex items-center gap-1'><Users className='w-4 h-4 text-sky-500' /> {car.seats} seats</span>
+                <span className='inline-flex items-center gap-1'><Cog className='w-4 h-4 text-sky-500' /> {car.transmission}</span>
+                <span className='inline-flex items-center gap-1'><Fuel className='w-4 h-4 text-sky-500' /> {car.fuel}</span>
               </div>
               <div className="flex flex-wrap gap-2 mt-3">
                 {car.badges.map((badge, i) => (
@@ -147,7 +147,7 @@ const FeaturedCars = () => {
                 ))}
               </div>
               <div className="mt-4">
-                <p className="text-lg font-bold text-blue-500">${car.price}<span className="text-sm font-normal text-gray-500">/day</span></p>
+                <p className="text-lg font-bold text-sky-500">${car.price}<span className="text-sm font-normal text-gray-500">/day</span></p>
               </div>
               <div className="flex sm:flex-row flex-col mt-4 gap-3">
                 <button className="sm:w-1/2 w-full border border-gray-300 px-3 py-2 rounded cursor-pointer transition duration-300 hover:bg-gray-300">View Details</button>
@@ -157,7 +157,7 @@ const FeaturedCars = () => {
           </div>
         ))}
       </div>
-      <button className='mx-auto flex items-center justify-center mt-12 bg-blue-500 py-3 px-5 text-white rounded cursor-pointer gap-1 transition duration-300 hover:bg-blue-700'>View All Cars <ArrowRight className='w-5 h-5' /></button>
+      <button className='mx-auto flex items-center justify-center mt-12 bg-sky-500 py-3 px-5 text-white rounded cursor-pointer gap-1 transition duration-300 hover:bg-sky-700'>View All Cars <ArrowRight className='w-5 h-5' /></button>
     </section>
   )
 }

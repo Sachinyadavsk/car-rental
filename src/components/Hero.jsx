@@ -40,7 +40,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="bg-gradient-to-br from-blue-500 to-blue-700 text-white sm:py-28 py-16 px-4 text-center">
+    <section className="bg-gradient-to-br from-sky-500 to-sky-700 text-white sm:py-28 py-16 px-4 text-center">
       <h1 className="text-4xl sm:text-5xl font-bold mb-4 hero-reveal">
         Find Your Perfect <span className="text-yellow-400">Rental Car</span>
       </h1>
@@ -88,7 +88,7 @@ const Hero = () => {
 
         {/* Button */}
         <div>
-          <button className="flex items-center justify-center gap-2 w-full cursor-pointer bg-blue-500 text-white p-2 rounded hover:bg-blue-700 transition duration-300">
+          <button className="flex items-center justify-center gap-2 w-full cursor-pointer bg-sky-500 text-white p-2 rounded hover:bg-sky-700 transition duration-300">
             <Search className='w-5 h-5' /> <span>Search Cars</span>
           </button>
         </div>

@@ -14,7 +14,7 @@ const Register = () => {
     }, [])
     
   return (
-    <div className="py-14 flex flex-col items-center justify-center bg-gradient-to-br from-blue-500 to-blue-700 px-4">
+    <div className="py-14 flex flex-col items-center justify-center bg-gradient-to-br from-pink-500 to-pink-700 px-4">
         {/* Logo */}
         <div className="text-center mb-6">
           <div className="text-white text-3xl font-bold flex justify-center items-center gap-2">
@@ -36,7 +36,7 @@ const Register = () => {
               <input
                 type="text"
                 placeholder="First Name"
-                className="w-full bg-white pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full bg-white pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-sky-500"
               />
             </div>
             <div className="relative">
@@ -44,7 +44,7 @@ const Register = () => {
               <input
                 type="text"
                 placeholder="Last Name"
-                className="w-full bg-white pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full bg-white pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-sky-500"
               />
             </div>
           </div>
@@ -58,7 +58,7 @@ const Register = () => {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="w-full pl-10 pr-4 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full pl-10 pr-4 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-sky-500"
               />
             </div>
           </div>
@@ -71,22 +71,22 @@ const Register = () => {
               <input
                 type="password"
                 placeholder="Enter your password"
-                className="w-full pl-10 pr-4 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full pl-10 pr-4 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-sky-500"
               />
             </div>
           </div>
 
           <div className="flex sm:flex-row flex-col sm:items-center sm:gap-0 gap-2 justify-between text-sm mb-6">
             <label className="flex items-center gap-1 cursor-pointer">
-              <input type="checkbox" className="cursor-pointer appearance-none h-4 w-4 border border-gray-300 rounded-sm checked:bg-blue-500 checked:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-400" />
+              <input type="checkbox" className="cursor-pointer appearance-none h-4 w-4 border border-gray-300 rounded-sm checked:bg-sky-500 checked:border-transparent focus:outline-none focus:ring-2 focus:ring-sky-400" />
               <span className='text-base'>Remember me</span>
             </label>
-            <a href="#" className="text-blue-500 hover:underline">Forgot password?</a>
+            <a href="#" className="text-sky-500 hover:underline">Forgot password?</a>
           </div>
 
           <button
             type="submit"
-            className="w-full cursor-pointer bg-blue-500 hover:bg-blue-700 text-white py-2 rounded-md font-medium transition duration-200"
+            className="w-full cursor-pointer bg-sky-500 hover:bg-sky-700 text-white py-2 rounded-md font-medium transition duration-200"
           >
             Sign In
           </button>
@@ -101,10 +101,10 @@ const Register = () => {
 
         {/* Social Login */}
         <div className="flex gap-4">
-          <button className="w-1/2 flex cursor-pointer items-center justify-center border border-gray-300 py-2 rounded-md hover:bg-blue-700 hover:text-white transition duration-300">
+          <button className="w-1/2 flex cursor-pointer items-center justify-center border border-gray-300 py-2 rounded-md hover:bg-sky-700 hover:text-white transition duration-300">
             <Instagram className="mr-2" /> Google
           </button>
-          <button className="w-1/2 flex cursor-pointer items-center justify-center border border-gray-300 py-2 rounded-md hover:bg-blue-700 hover:text-white transition duration-300">
+          <button className="w-1/2 flex cursor-pointer items-center justify-center border border-gray-300 py-2 rounded-md hover:bg-sky-700 hover:text-white transition duration-300">
             <Facebook className="mr-2" /> Facebook
           </button>
         </div>
@@ -112,7 +112,7 @@ const Register = () => {
         {/* Sign up link */}
         <p className="text-center text-sm text-gray-600 mt-6">
           Don't have an account?{' '}
-          <a href="/login" className="text-blue-500 hover:underline">Log in</a>
+          <a href="/login" className="text-sky-500 hover:underline">Log in</a>
         </p>
       </div>
     </div>

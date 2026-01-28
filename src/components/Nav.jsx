@@ -19,15 +19,15 @@ const Nav = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link to='/' className="text-gray-700 hover:text-blue-700 transition-colors">Home</Link>
-            <Link to='#' className="text-gray-700 hover:text-blue-700 transition-colors">Cars</Link>
-            <Link to='#' className="text-gray-700 hover:text-blue-700 transition-colors">About</Link>
-            <Link to='#' className="text-gray-700 hover:text-blue-700 transition-colors">Contact</Link>
+            <Link to='/' className="text-gray-700 hover:text-sky-700 transition-colors">Home</Link>
+            <Link to='#' className="text-gray-700 hover:text-sky-700 transition-colors">Cars</Link>
+            <Link to='#' className="text-gray-700 hover:text-sky-700 transition-colors">About</Link>
+            <Link to='#' className="text-gray-700 hover:text-sky-700 transition-colors">Contact</Link>
           </div>
 
           <div className="hidden md:flex items-center space-x-4">
             <Link to='/login' className='py-1 px-2 flex items-center gap-2 rounded-sm transition duration-300 hover:bg-gray-200'><LogIn className="h-4 w-4" /><span>Login</span></Link>
-            <Link to='/register' className='rounded-sm py-1 px-3 transition duration-300 bg-blue-500 text-white hover:bg-blue-700'>Sign Up</Link>
+            <Link to='/register' className='rounded-sm py-1 px-3 transition duration-300 bg-sky-500 text-white hover:bg-sky-700'>Sign Up</Link>
           </div>
 
 
