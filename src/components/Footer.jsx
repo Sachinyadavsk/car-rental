@@ -54,10 +54,10 @@ const Footer = () => {
               <Phone className="text-sky-400 w-5 h-5" /> +1 (555) 123-4567
             </li>
             <li className="flex items-center gap-2">
-              <Mail className="text-sky-400 w-5 h-5" /> info@autorent.com
+              <Mail className="text-sky-400 w-5 h-5" /> carrental@gmail.com
             </li>
             <li className="flex items-center gap-2">
-              <MapPin className="text-sky-400 w-5 h-5" /> 123 Main St, City, State 12345
+              <MapPin className="text-sky-400 w-5 h-5" /> Sector 141, Noida, Uttar Pradesh 201304
             </li>
           </ul>
         </div>
